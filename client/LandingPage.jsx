@@ -14,8 +14,8 @@ import { FullPageCanvas } from './FullPageCanvas';
 import GlassCard from './GlassCard';
 import OrbitalGlyph from '../components/orbital/OrbitalGlyph';
 import React from 'react';
-import ReactRotatingText from 'react-rotating-text';
-import scrolltoElement from 'scrollto-element';
+// import ReactRotatingText from 'react-rotating-text';
+// import scrolltoElement from 'scrollto-element';
 
 var height = window.innerHeight;
 
@@ -35,60 +35,59 @@ export class LandingPage extends React.Component {
     console.log('this.state', this.state)
   }
   scrollToDynamicText(){
-    scrolltoElement({
-      element: document.querySelector('#dynamicText'),
-      offset: -100, // default is 0 
-      bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
-      duration: 1000, // default is 100 
-      then () {
-        console.log('Finished~')
-      }
-    });    
+    // scrolltoElement({
+    //   element: document.querySelector('#dynamicText'),
+    //   offset: -100, // default is 0 
+    //   bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
+    //   duration: 1000, // default is 100 
+    //   then () {
+    //     console.log('Finished~')
+    //   }
+    // });    
   }
   scrollToCore(){
-    scrolltoElement({
-      element: document.querySelector('#coreModule'),
-      offset: -100, // default is 0 
-      bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
-      duration: 1000, // default is 100 
-      then () {
-        console.log('Finished~')
-      }
-    });    
+    // scrolltoElement({
+    //   element: document.querySelector('#coreModule'),
+    //   offset: -100, // default is 0 
+    //   bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
+    //   duration: 1000, // default is 100 
+    //   then () {
+    //     console.log('Finished~')
+    //   }
+    // });    
   }
   scrollToArchitectureCard(){    
-    scrolltoElement({
-      element: document.querySelector('#architectureCard'),
-      offset: -100, // default is 0 
-      bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
-      duration: 1000, // default is 100 
-      then () {
-        console.log('Finished~')
-      }
-    });
+    // scrolltoElement({
+    //   element: document.querySelector('#architectureCard'),
+    //   offset: -100, // default is 0 
+    //   bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
+    //   duration: 1000, // default is 100 
+    //   then () {
+    //     console.log('Finished~')
+    //   }
+    // });
   }
   scrollToMeaningfulUse(){
-    scrolltoElement({
-      element: document.querySelector('#meaningfulUseCard'),
-      offset: -100, // default is 0 
-      bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
-      duration: 1000, // default is 100 
-      then () {
-        console.log('Finished~')
-      }
-    });    
+    // scrolltoElement({
+    //   element: document.querySelector('#meaningfulUseCard'),
+    //   offset: -100, // default is 0 
+    //   bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
+    //   duration: 1000, // default is 100 
+    //   then () {
+    //     console.log('Finished~')
+    //   }
+    // });    
   }
   scrollToPremiumModule(){
-    scrolltoElement({
-      element: document.querySelector('#premiumModulesCard'),
-      offset: -100, // default is 0 
-      bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
-      duration: 1000, // default is 100 
-      then () {
-        console.log('Finished~')
-      }
-    });    
-    
+    // scrolltoElement({
+    //   element: document.querySelector('#premiumModulesCard'),
+    //   offset: -100, // default is 0 
+    //   bezier: [0.19, 1, 0.22, 1], // default is [0.19, 1, 0.22, 1] 
+    //   duration: 1000, // default is 100 
+    //   then () {
+    //     console.log('Finished~')
+    //   }
+    // });        
   }
   render(){
     return(
