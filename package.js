@@ -13,10 +13,10 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.4');
 
-  api.use('react-meteor-data');
-  api.use('session');
-  api.use('ecmascript');
-  api.use('meteor-platform');
+  api.use('react-meteor-data@0.2.15');
+  api.use('session@1.1.7');
+  api.use('ecmascript@0.9.0');
+  api.use('meteor-base@1.2.0');
   
   api.mainModule('index.jsx', 'client');
 });
