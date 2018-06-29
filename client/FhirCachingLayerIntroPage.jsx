@@ -20,7 +20,7 @@ import React from 'react';
 
 var height = window.innerHeight;
 
-export class LandingPage extends React.Component {
+export class FhirCachingLayerIntroPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -92,7 +92,7 @@ export class LandingPage extends React.Component {
   }
   render(){
     return(
-      <div id="LandingPage" >
+      <div id="FhirCachingLayerIntroPage" >
         <FullPageCanvas width='wide' >
 
           <GlassCard id='architectureCard' style={{height: '100%'}} onClick={this.scrollToMeaningfulUse }>
@@ -123,4 +123,4 @@ export class LandingPage extends React.Component {
     );
   }
 }
-export default LandingPage;
+export default FhirCachingLayerIntroPage;
