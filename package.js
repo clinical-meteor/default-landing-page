@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:default-landing-page',
-  version: '0.0.4',
+  version: '0.0.5',
   // Brief, one-line summary of the package.
   summary: 'Default landing page for Meteor on FHIR Community.',
   // URL to the Git repository containing the source code for this package.
@@ -19,7 +19,9 @@ Package.onUse(function(api) {
   api.use('meteor-base@1.2.0');
   api.use('clinical:glass-ui@2.2.4');
 
-  api.export('LandingPage')
+  api.addFiles('components/LandingPage.js');
+
+  api.export('lib/LandingPage')
   
   api.mainModule('index.jsx', 'client');
 });
