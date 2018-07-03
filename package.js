@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:default-landing-page',
-  version: '0.0.6',
+  version: '0.0.7',
   // Brief, one-line summary of the package.
   summary: 'Default landing page for Meteor on FHIR Community.',
   // URL to the Git repository containing the source code for this package.
