@@ -122,8 +122,6 @@ const {
 } = utils;
 
 
-
-//const OrbitalGlyph = React.createClass({
 const OrbitalGlyph = createReactClass({
     getInitialState() {
     let state = {
