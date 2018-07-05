@@ -19,6 +19,10 @@ Package.onUse(function(api) {
   api.use('meteor-base@1.2.0');
   api.use('clinical:glass-ui@2.2.4');
 
+  api.addFiles('assets/FacebookExport.png', "client", {isAsset: true});
+  api.addFiles('assets/FileVaultOff.png', "client", {isAsset: true});
+  api.addFiles('assets/PrivacySecurity.png', "client", {isAsset: true});
+
   api.addFiles('lib/LandingPage.js');
 
   api.export('LandingPageConfig')
