@@ -5,6 +5,10 @@ var DynamicRoutes = [{
   'name': 'LandingPage',
   'path': '/landing-page',
   'component': LandingPage
+}, {
+  'name': 'TutorialBoardPage',
+  'path': '/tutorial-board',
+  'component': LandingPage
 }];
 
 export { DynamicRoutes, LandingPage };
